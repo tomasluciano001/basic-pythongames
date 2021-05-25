@@ -1,0 +1,9 @@
+1 - Descarga los archivos en tu computadora
+2 - Una vez descargados abre la consola de Windows. Para esto presiona el botón de Windows en tu teclado y escribe "CMD" presiona Enter
+3 - Arrastra uno de los juegos a la consola y presiona Enter
+4 - Juega
+
+1 - Download the files to your computer
+2 - Once downloaded, open the Windows console. For this press the Windows button on your keyboard and type "CMD" press Enter
+3 - Drag one of the games to the console and press Enter
+4 - Play
