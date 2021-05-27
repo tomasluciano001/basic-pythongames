@@ -23,6 +23,7 @@ if opcion == "A":
       if opcion == "A":
             print("Caminás sin rumbo un buen rato hasta que los ladrones te encuentran \n" 
                   "y te matan para sacarte la plata que cobraste. FIN \n")
+            exit()
 
       elif opcion == "B":
             print("Volvés a la casa del cliente y afortunadamente los ladrones ya se habían ido del lugar. \n"
@@ -61,10 +62,12 @@ if opcion == "A":
                                     print("Se lo regalás y entendés que a pesar de haber tenido un mal día todavía existe bondad e inocencia en el mundo. \n"
                                           "Ahora ese chico va a tener un lindo juguete con el cual jugar y tal vez hacerle su infancia un poco más fácil. \n"
                                           "Te volvés contento a tu casa :) FIN")
+                                    exit()
                               elif opcion == "B":
                                     print("No se lo das porque ese chico no hizo ningún mérito para tenerlo y vos sí. \n"
                                           "Debería aprender a esforzarse más para que entienda que nadie le va a regalar nada en la vida :( \n"
                                           "FIN")
+                                    exit()
                         else:
                               print("Perdiste, mejor suerte para la próxima :(")
                               exit()
@@ -101,10 +104,12 @@ if opcion == "A":
                               print("Se lo regalás y entendés que a pesar de haber tenido un mal día todavía existe bondad e inocencia en el mundo. \n"
                                     "Ahora ese chico va a tener un lindo juguete con el cual jugar y tal vez hacerle su infancia un poco más fácil. \n"
                                     "Te volvés contento a tu casa :) FIN")
+                              exit()
                         elif opcion == "B":
                               print("No se lo das porque ese chico no hizo ningún mérito para tenerlo y vos sí. \n"
                                     "Debería aprender a esforzarse más para que entienda que nadie le va a regalar nada en la vida :( \n"
                                     "FIN")
+                              exit()
                   else:
                         print("Perdiste, mejor suerte para la próxima :(")
                         exit()
@@ -215,6 +220,7 @@ elif opcion == "B":
                                     "En eso la policía se baja de su patrulla y te derriban, de repente tenés a un perro olfateándote en busca de drogas. \n"
                                     "Escuchás a los vecinos gritar y pedir que te arresten por disturbios.\n"
                                     "Te meten en un auto y te llevan a declarar a la comisaría... Vos les contás todo. FIN.")
+                            exit()
 
             elif opcion == "B":
                         metal = False
@@ -222,6 +228,7 @@ elif opcion == "B":
                               "Tu única esperanza es eperar a que paguen tu rescate. Pero lo que no sabés es que tu familia no puede pagarlo y \n"
                               "por lo tanto te quedás esperando en vano. \n"
                               "Moriste. FIN.")
+                        exit()
 
       elif opcion == "B":
             print("Desobedecerlos fue un grave error. No toleran que no les hagas caso y al cabo de unos días manteniéndote deciden sacarte \n"
@@ -229,3 +236,4 @@ elif opcion == "B":
                         "Sin ninguna posibilidad de escapar y muriéndote de hambre tu única esperanza es esperar a que paguen tu rescate. \n"
                         "Pero lo que no sabés es que tu familia no puede pagarlo y por lo tanto te quedás esperando en vano. \n"
                         "Moriste. FIN")
+            exit()
