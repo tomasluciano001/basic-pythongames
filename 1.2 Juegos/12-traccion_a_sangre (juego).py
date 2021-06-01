@@ -75,6 +75,7 @@ if opcion == "A":
                   elif opcion == "B":
                         print("Volvés a tu casa triste y asustado por lo que pasaste. \n"
                               "En el camino considerás seriamente la idea de mudarte de país. FIN. \n")
+                        exit()
 
             elif opcion == "B":
                   print("Tu amigo te insiste en acompañarte igual, así que lo vas a tener que aguantar de todas formas... \n"
@@ -191,7 +192,6 @@ elif opcion == "B":
                                           "Listo, saliste. Tenés todo el cuerpo raspado pero por lo menos estás a salvo. FIN :)\n")
                                     exit()
 
-
                                 elif opcion == "B":
                                     print("No encontrás una sola llave en toda la casa, te empezás a desesperar y hacés ruido. \n"
                                           "Los secuestradores se dan cuenta y bajan a buscarte \n"
@@ -213,6 +213,7 @@ elif opcion == "B":
 
                         if opcion == "A":
                               print("En un intento de avanzar hacia adelante te resbalás y caés de cabeza, te morís. FIN.")
+                              exit()
 
                         elif opcion == "B":
                             print("Te tirás y caés en una pierna, estás rengueando y como podés llegás a la calle... Empezás a gritar por ayuda... Segundos más tarde \n"
